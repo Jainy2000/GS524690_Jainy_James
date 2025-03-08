@@ -8,13 +8,14 @@ import {
   LineElement,
   Tooltip,
   Legend,
-  LineController
+  LineController,
+  BarController
 } from "chart.js";
 import { ChartData, ChartOptions } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
 // Register necessary Chart.js components
-ChartJS.register(LineController, BarElement, CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend);
+ChartJS.register(BarController, LineController, BarElement, CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend);
 
 // Interface for dataset structure
 interface ChartDataset {
