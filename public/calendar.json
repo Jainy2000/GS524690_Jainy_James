@@ -1,0 +1,366 @@
+[
+    {
+        "seqno": 1,
+        "week": "W01",
+        "week_label": "Week 01",
+        "month": "M01",
+        "month_label": "Feb"
+    },
+    {
+        "seqno": 2,
+        "week": "W02",
+        "week_label": "Week 02",
+        "month": "M01",
+        "month_label": "Feb"
+    },
+    {
+        "seqno": 3,
+        "week": "W03",
+        "week_label": "Week 03",
+        "month": "M01",
+        "month_label": "Feb"
+    },
+    {
+        "seqno": 4,
+        "week": "W04",
+        "week_label": "Week 04",
+        "month": "M01",
+        "month_label": "Feb"
+    },
+    {
+        "seqno": 5,
+        "week": "W05",
+        "week_label": "Week 05",
+        "month": "M02",
+        "month_label": "Mar"
+    },
+    {
+        "seqno": 6,
+        "week": "W06",
+        "week_label": "Week 06",
+        "month": "M02",
+        "month_label": "Mar"
+    },
+    {
+        "seqno": 7,
+        "week": "W07",
+        "week_label": "Week 07",
+        "month": "M02",
+        "month_label": "Mar"
+    },
+    {
+        "seqno": 8,
+        "week": "W08",
+        "week_label": "Week 08",
+        "month": "M02",
+        "month_label": "Mar"
+    },
+    {
+        "seqno": 9,
+        "week": "W09",
+        "week_label": "Week 09",
+        "month": "M02",
+        "month_label": "Mar"
+    },
+    {
+        "seqno": 10,
+        "week": "W10",
+        "week_label": "Week 10",
+        "month": "M03",
+        "month_label": "Apr"
+    },
+    {
+        "seqno": 11,
+        "week": "W11",
+        "week_label": "Week 11",
+        "month": "M03",
+        "month_label": "Apr"
+    },
+    {
+        "seqno": 12,
+        "week": "W12",
+        "week_label": "Week 12",
+        "month": "M03",
+        "month_label": "Apr"
+    },
+    {
+        "seqno": 13,
+        "week": "W13",
+        "week_label": "Week 13",
+        "month": "M03",
+        "month_label": "Apr"
+    },
+    {
+        "seqno": 14,
+        "week": "W14",
+        "week_label": "Week 14",
+        "month": "M04",
+        "month_label": "May"
+    },
+    {
+        "seqno": 15,
+        "week": "W15",
+        "week_label": "Week 15",
+        "month": "M04",
+        "month_label": "May"
+    },
+    {
+        "seqno": 16,
+        "week": "W16",
+        "week_label": "Week 16",
+        "month": "M04",
+        "month_label": "May"
+    },
+    {
+        "seqno": 17,
+        "week": "W17",
+        "week_label": "Week 17",
+        "month": "M04",
+        "month_label": "May"
+    },
+    {
+        "seqno": 18,
+        "week": "W18",
+        "week_label": "Week 18",
+        "month": "M05",
+        "month_label": "Jun"
+    },
+    {
+        "seqno": 19,
+        "week": "W19",
+        "week_label": "Week 19",
+        "month": "M05",
+        "month_label": "Jun"
+    },
+    {
+        "seqno": 20,
+        "week": "W20",
+        "week_label": "Week 20",
+        "month": "M05",
+        "month_label": "Jun"
+    },
+    {
+        "seqno": 21,
+        "week": "W21",
+        "week_label": "Week 21",
+        "month": "M05",
+        "month_label": "Jun"
+    },
+    {
+        "seqno": 22,
+        "week": "W22",
+        "week_label": "Week 22",
+        "month": "M05",
+        "month_label": "Jun"
+    },
+    {
+        "seqno": 23,
+        "week": "W23",
+        "week_label": "Week 23",
+        "month": "M06",
+        "month_label": "Jul"
+    },
+    {
+        "seqno": 24,
+        "week": "W24",
+        "week_label": "Week 24",
+        "month": "M06",
+        "month_label": "Jul"
+    },
+    {
+        "seqno": 25,
+        "week": "W25",
+        "week_label": "Week 25",
+        "month": "M06",
+        "month_label": "Jul"
+    },
+    {
+        "seqno": 26,
+        "week": "W26",
+        "week_label": "Week 26",
+        "month": "M06",
+        "month_label": "Jul"
+    },
+    {
+        "seqno": 27,
+        "week": "W27",
+        "week_label": "Week 27",
+        "month": "M07",
+        "month_label": "Aug"
+    },
+    {
+        "seqno": 28,
+        "week": "W28",
+        "week_label": "Week 28",
+        "month": "M07",
+        "month_label": "Aug"
+    },
+    {
+        "seqno": 29,
+        "week": "W29",
+        "week_label": "Week 29",
+        "month": "M07",
+        "month_label": "Aug"
+    },
+    {
+        "seqno": 30,
+        "week": "W30",
+        "week_label": "Week 30",
+        "month": "M07",
+        "month_label": "Aug"
+    },
+    {
+        "seqno": 31,
+        "week": "W31",
+        "week_label": "Week 31",
+        "month": "M08",
+        "month_label": "Sep"
+    },
+    {
+        "seqno": 32,
+        "week": "W32",
+        "week_label": "Week 32",
+        "month": "M08",
+        "month_label": "Sep"
+    },
+    {
+        "seqno": 33,
+        "week": "W33",
+        "week_label": "Week 33",
+        "month": "M08",
+        "month_label": "Sep"
+    },
+    {
+        "seqno": 34,
+        "week": "W34",
+        "week_label": "Week 34",
+        "month": "M08",
+        "month_label": "Sep"
+    },
+    {
+        "seqno": 35,
+        "week": "W35",
+        "week_label": "Week 35",
+        "month": "M08",
+        "month_label": "Sep"
+    },
+    {
+        "seqno": 36,
+        "week": "W36",
+        "week_label": "Week 36",
+        "month": "M09",
+        "month_label": "Oct"
+    },
+    {
+        "seqno": 37,
+        "week": "W37",
+        "week_label": "Week 37",
+        "month": "M09",
+        "month_label": "Oct"
+    },
+    {
+        "seqno": 38,
+        "week": "W38",
+        "week_label": "Week 38",
+        "month": "M09",
+        "month_label": "Oct"
+    },
+    {
+        "seqno": 39,
+        "week": "W39",
+        "week_label": "Week 39",
+        "month": "M09",
+        "month_label": "Oct"
+    },
+    {
+        "seqno": 40,
+        "week": "W40",
+        "week_label": "Week 40",
+        "month": "M10",
+        "month_label": "Nov"
+    },
+    {
+        "seqno": 41,
+        "week": "W41",
+        "week_label": "Week 41",
+        "month": "M10",
+        "month_label": "Nov"
+    },
+    {
+        "seqno": 42,
+        "week": "W42",
+        "week_label": "Week 42",
+        "month": "M10",
+        "month_label": "Nov"
+    },
+    {
+        "seqno": 43,
+        "week": "W43",
+        "week_label": "Week 43",
+        "month": "M10",
+        "month_label": "Nov"
+    },
+    {
+        "seqno": 44,
+        "week": "W44",
+        "week_label": "Week 44",
+        "month": "M11",
+        "month_label": "Dec"
+    },
+    {
+        "seqno": 45,
+        "week": "W45",
+        "week_label": "Week 45",
+        "month": "M11",
+        "month_label": "Dec"
+    },
+    {
+        "seqno": 46,
+        "week": "W46",
+        "week_label": "Week 46",
+        "month": "M11",
+        "month_label": "Dec"
+    },
+    {
+        "seqno": 47,
+        "week": "W47",
+        "week_label": "Week 47",
+        "month": "M11",
+        "month_label": "Dec"
+    },
+    {
+        "seqno": 48,
+        "week": "W48",
+        "week_label": "Week 48",
+        "month": "M11",
+        "month_label": "Dec"
+    },
+    {
+        "seqno": 49,
+        "week": "W49",
+        "week_label": "Week 49",
+        "month": "M12",
+        "month_label": "Jan"
+    },
+    {
+        "seqno": 50,
+        "week": "W50",
+        "week_label": "Week 50",
+        "month": "M12",
+        "month_label": "Jan"
+    },
+    {
+        "seqno": 51,
+        "week": "W51",
+        "week_label": "Week 51",
+        "month": "M12",
+        "month_label": "Jan"
+    },
+    {
+        "seqno": 52,
+        "week": "W52",
+        "week_label": "Week 52",
+        "month": "M12",
+        "month_label": "Jan"
+    }
+]

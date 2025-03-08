@@ -1,0 +1,142 @@
+[
+    {
+        "seqno": 1,
+        "label": "San Francisco Bay Trends",
+        "id": "ST035",
+        "city": "San Francisco",
+        "state": "CA"
+    },
+    {
+        "seqno": 2,
+        "label": "Phoenix Sunwear",
+        "id": "ST046",
+        "city": "Phoenix",
+        "state": "AZ"
+    },
+    {
+        "seqno": 3,
+        "label": "Dallas Ranch Supply",
+        "id": "ST064",
+        "city": "Dallas",
+        "state": "TX"
+    },
+    {
+        "seqno": 4,
+        "label": "Atlanta Outfitters",
+        "id": "ST066",
+        "city": "Atlanta",
+        "state": "GA"
+    },
+    {
+        "seqno": 5,
+        "label": "Nashville Melody Music Store",
+        "id": "ST073",
+        "city": "Nashville",
+        "state": "TN"
+    },
+    {
+        "seqno": 6,
+        "label": "New York Empire Eats",
+        "id": "ST074",
+        "city": "New York",
+        "state": "NY"
+    },
+    {
+        "seqno": 7,
+        "label": "Denver Peaks Outdoor",
+        "id": "ST091",
+        "city": "Denver",
+        "state": "CO"
+    },
+    {
+        "seqno": 8,
+        "label": "Philadelphia Liberty Market",
+        "id": "ST094",
+        "city": "Philadelphia",
+        "state": "PA"
+    },
+    {
+        "seqno": 9,
+        "label": "Boston Harbor Books",
+        "id": "ST097",
+        "city": "Boston",
+        "state": "MA"
+    },
+    {
+        "seqno": 10,
+        "label": "Austin Vibe Co.",
+        "isd": "ST101",
+        "city": "Austin",
+        "state": "TX"
+    },
+    {
+        "seqno": 11,
+        "label": "Los Angeles Luxe",
+        "isd": "ST131",
+        "city": "Los Angeles",
+        "state": "CA"
+    },
+    {
+        "seqno": 12,
+        "label": "Houston Harvest Market",
+        "isd": "ST150",
+        "city": "Houston",
+        "state": "TX"
+    },
+    {
+        "seqno": 13,
+        "label": "Portland Evergreen Goods",
+        "isd": "ST151",
+        "city": "Portland",
+        "state": "OR"
+    },
+    {
+        "seqno": 14,
+        "label": "Chicago Charm Boutique",
+        "isd": "ST156",
+        "city": "Chicago",
+        "state": "IL"
+    },
+    {
+        "seqno": 15,
+        "label": "Las Vegas Neon Treasures",
+        "isd": "ST163",
+        "city": "Las Vegas",
+        "state": "NV"
+    },
+    {
+        "seqno": 16,
+        "label": "Seattle Skyline Goods",
+        "isd": "ST175",
+        "city": "Seattle",
+        "state": "WA"
+    },
+    {
+        "seqno": 17,
+        "label": "Miami Breeze Apparel",
+        "isd": "ST176",
+        "city": "Miami",
+        "state": "FL"
+    },
+    {
+        "seqno": 18,
+        "label": "San Diego Wave Surf Shop",
+        "isd": "ST177",
+        "city": "San Diego",
+        "state": "CA"
+    },
+    {
+        "seqno": 19,
+        "label": "Charlotte Queen‚Äôs Closet",
+        "isd": "ST193",
+        "city": "Charlotte",
+        "state": "NC"
+    },
+    {
+        "seqno": 20,
+        "label": "Detroit Motor Gear",
+        "isd": "ST208",
+        "city": "Detroit",
+        "state": "MI"
+    }
+]
