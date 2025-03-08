@@ -14,7 +14,6 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
   const navigate = useNavigate(); // Hook for programmatic navigation
 
   const handleLogout = () => {
-    console.log("called");
     localStorage.removeItem("authToken"); // Clearing authentication token on logout
     navigate("/"); // Redirecting user to the login page
   };

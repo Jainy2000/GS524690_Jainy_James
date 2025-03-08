@@ -54,23 +54,17 @@ const MyComponent: React.FC = () => {
         // ✅ Function to update calculated fields when "Sales Units" change
         const updateCalculatedFields = async (params: any, week: string) => {
             const newUnits = parseFloat(params.newValue);
-            console.log(newUnits)
             if (isNaN(newUnits)) return; // ✅ Prevents invalid calculations for non-numeric input
 
             const skuId = params.data.sku;
-            console.log(skuId)
 
             // ✅ Calculate sales dollars, GM dollars, and GM percentage
             const newSalesDollars = await calculateSalesDollars(newUnits, skuId);
-            console.log(newSalesDollars)
             const newGMDollars = await calculateGMDollars(newUnits, skuId);
-            console.log(newGMDollars)
             const newGMPercent = calculateGMPercent(newSalesDollars, newGMDollars);
-            console.log(newGMPercent)
 
             // ✅ Update state with new calculated values
             setRowData((prevRowData) => {
-                console.log(prevRowData)
                 return prevRowData.map((row) => {
                     if (row.store === params.data.store && row.sku === skuId) {
                         return {
@@ -95,8 +89,6 @@ const MyComponent: React.FC = () => {
 
         // ✅ Function to calculate GM % (Gross Margin Percentage)
         const calculateGMPercent = (salesDollars: string, gmDollars: string) => {
-            console.log(salesDollars)
-            console.log(gmDollars)
             const sales = parseFloat(salesDollars);
             const gm = parseFloat(gmDollars);
             return sales !== 0 ? ((gm / sales) * 100).toFixed(2) : "0";
