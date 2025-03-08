@@ -8,12 +8,13 @@ import {
   LineElement,
   Tooltip,
   Legend,
+  LineController
 } from "chart.js";
 import { ChartData, ChartOptions } from "chart.js";
-import { Bar } from "react-chartjs-2";
+import { Chart } from "react-chartjs-2";
 
 // Register necessary Chart.js components
-ChartJS.register(BarElement, CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend);
+ChartJS.register(LineController, BarElement, CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend);
 
 // Interface for dataset structure
 interface ChartDataset {
@@ -30,7 +31,7 @@ interface ChartDataset {
 }
 
 const ChartPage: React.FC = () => {
-  const [chartData, setChartData] = useState<ChartData<"bar"> | null>(null); // State to store chart data
+  const [chartData, setChartData] = useState<ChartData<"bar" | "line"> | undefined>(undefined);  // State to store chart data
 
   useEffect(() => {
     fetchGoogleSheetData(); // Fetch data from Google Sheets when component mounts
@@ -80,7 +81,7 @@ const ChartPage: React.FC = () => {
         ],
       };
 
-      setChartData(formattedData as any); // Update state with formatted data
+      setChartData(formattedData as ChartData<"bar" | "line">); // Update state with formatted data
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -111,7 +112,7 @@ const ChartPage: React.FC = () => {
   return (
     <div style={{ width: "100%", height: "80%", backgroundColor: "white" }}>
       {chartData ? (
-        <Bar data={chartData} options={options} width="100%" /> // Render bar chart if data is available
+        <Chart type="bar" data={chartData} options={options as ChartOptions<"bar" | "line">} width="100%" /> // Render bar chart if data is available
       ) : (
         // Show loading text while data is being fetched
         <div style={{ height: "100%", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
