@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# Data Viewer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
+Ensure you have the following installed:
+- Node.js (>= 16.0.0)
+- npm (>= 8.0)
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clone the repository
+```sh
+git clone https://github.com/Jainy2000/GS524690_Jainy_James.git
+cd gsynergy-react-app
+```
+- Install dependencies
+```sh
+npm install
+```
+- Run the development server
+```sh
+npm run dev
+```
+The application will be available at `http://localhost:5173/`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## What Went Well
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Key Achievements
+1. **Efficient State Management**: Used React state and hooks effectively to manage dynamic data rendering.
+2. **API Integration**: Successfully integrated and fetched data from the API with error handling by implementing the capability to import the online sample data from Google Sheets to prepopulate the application screens.
+3. **Responsive UI Design**: Ensured the UI is adaptive and user-friendly across different screen sizes.
+4. **Authentication**: The application includes authentication & authorization. The login credentails are:
+```sh
+username: admin
+password: password123
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+I chose these elements because they showcase my ability to write clean, maintainable code while ensuring performance and usability.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Improvements with 4 More Hours
+
+1. **Performance Optimization**: Optimize re-renders by implementing memoization with `useMemo` and `useCallback`.
+2. **Enhanced Error Handling**: Improve error messages and introduce retry logic for failed API requests.
+3. **Accessibility Enhancements**: Ensure proper ARIA attributes and keyboard navigation support.
+4. **More Test Coverage**: Expand unit tests to cover edge cases and integration scenarios.
+5. **Minimizing API Calls**: Implement Redux or Context API to store and manage fetched data efficiently, reducing redundant API calls.
+6. **Better Jest Test Cases**: Improve test coverage with additional Jest cases for different scenarios.
+
+These improvements would enhance performance, resilience, and user experience.
+
+---
+
+## Feedback on the Challenge (Optional)
+- Clarifying expected UI behaviors for edge cases (e.g., empty states, API failures) would ensure consistency in implementation.
+- Overall, the challenge was well-structured and relevant to frontend development tasks.
+---
+
