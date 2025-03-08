@@ -1,0 +1,8 @@
+.gs-new-store-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
